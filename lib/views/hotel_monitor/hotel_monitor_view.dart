@@ -1,15 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hotel_reception/model/dto/setup_dto.dart';
 import 'package:hotel_reception/model/ui/hotel_model.dart';
-import 'package:hotel_reception/model/ui/world_speed.dart';
 import 'package:hotel_reception/views/hotel_monitor/hotel_monitor_cubit.dart';
 import 'package:hotel_reception/views/hotel_monitor/widget/chart.dart';
 import 'package:hotel_reception/views/hotel_monitor/widget/main_hotel_info.dart';
 import 'package:hotel_reception/views/hotel_monitor/widget/room_item_widget.dart';
-import 'package:intl/intl.dart';
 
 class HotelMonitorView extends StatelessWidget {
   const HotelMonitorView({Key? key, required this.setup}) : super(key: key);
@@ -29,14 +25,7 @@ class HotelMonitorView extends StatelessWidget {
             floatingActionButton: FloatingActionButton(
                 onPressed:
                     BlocProvider.of<HotelMonitorCubit>(context).nextSpeed,
-                child: Text(
-                  '${state.model.worldSpeed.speed}x',
-                  style: const TextStyle(
-                    fontSize: 24,
-                    fontWeight: FontWeight.w500,
-                    color: Colors.white,
-                  ),
-                )),
+                child: const Icon(Icons.fast_forward)),
           );
         },
       ),
@@ -51,15 +40,22 @@ class HotelMonitorView extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text(
+              const Text(
                 'Hotel monitiring',
-                style:
-                    const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
               const SizedBox(height: 30),
               MainHotelInfo(monitorModel: hotelModel),
               const SizedBox(height: 10),
               ReveneuChart(hotelModel.netRevenue),
+              GridView.count(
+                physics: NeverScrollableScrollPhysics(),
+                shrinkWrap: true,
+                crossAxisCount: 4,
+                crossAxisSpacing: 5,
+                mainAxisSpacing: 0,
+                children: hotelModel.list.map(HotelRoomWidget.new).toList(),
+              )
             ],
           ),
         ),
