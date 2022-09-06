@@ -24,7 +24,7 @@ class HotelChannel {
   Future nextSpeed() => platform.invokeMethod(_nextSpeed);
 
   Stream<MonitorUpdate> get connectionStateStream =>
-      const EventChannel(_hotelStatus)
-          .receiveBroadcastStream()
-          .map((event) => MonitorUpdate.fromJson(jsonDecode(event)));
+      const EventChannel(_hotelStatus).receiveBroadcastStream().map((event) {
+        return MonitorUpdate.fromJson(jsonDecode(event));
+      });
 }

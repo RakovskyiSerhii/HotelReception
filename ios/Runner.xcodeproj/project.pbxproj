@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0ACA71CD28B7A89B0055BDCC /* RoomCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA71B328B7A89B0055BDCC /* RoomCount.swift */; };
+		0ACA71CE28B7A89B0055BDCC /* SetupDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA71B428B7A89B0055BDCC /* SetupDto.swift */; };
+		0ACA71CF28B7A89B0055BDCC /* enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA71B528B7A89B0055BDCC /* enums.swift */; };
+		0ACA71D028B7A89B0055BDCC /* Processor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA71B628B7A89B0055BDCC /* Processor.swift */; };
+		0ACA71D128B7A89B0055BDCC /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA71BA28B7A89B0055BDCC /* Service.swift */; };
+		0ACA71D228B7A89B0055BDCC /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA71BB28B7A89B0055BDCC /* Hotel.swift */; };
+		0ACA71D328B7A89B0055BDCC /* RoomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA71BC28B7A89B0055BDCC /* RoomModel.swift */; };
+		0ACA71D428B7A89B0055BDCC /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA71BE28B7A89B0055BDCC /* Person.swift */; };
+		0ACA71D528B7A89B0055BDCC /* InitialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA71BF28B7A89B0055BDCC /* InitialData.swift */; };
+		0ACA71D628B7A89B0055BDCC /* WorldSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA71C128B7A89B0055BDCC /* WorldSpeed.swift */; };
+		0ACA71D728B7A89B0055BDCC /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA71C228B7A89B0055BDCC /* World.swift */; };
+		0ACA71D828B7A89B0055BDCC /* WorldClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA71C328B7A89B0055BDCC /* WorldClock.swift */; };
+		0ACA71D928B7A89B0055BDCC /* Season.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA71C428B7A89B0055BDCC /* Season.swift */; };
+		0ACA71DA28B7A89B0055BDCC /* HotelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA71C628B7A89B0055BDCC /* HotelService.swift */; };
+		0ACA71DB28B7A89B0055BDCC /* AccountantService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA71C728B7A89B0055BDCC /* AccountantService.swift */; };
+		0ACA71DC28B7A89B0055BDCC /* RepairingSquad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA71C828B7A89B0055BDCC /* RepairingSquad.swift */; };
+		0ACA71DD28B7A89B0055BDCC /* HotelReception.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA71C928B7A89B0055BDCC /* HotelReception.swift */; };
+		0ACA71DE28B7A89B0055BDCC /* BreakeEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA71CB28B7A89B0055BDCC /* BreakeEvent.swift */; };
+		0ACA71DF28B7A89B0055BDCC /* PersonRandomizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA71CC28B7A89B0055BDCC /* PersonRandomizer.swift */; };
+		0ACA71E128B7AA780055BDCC /* WorldChangedListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA71E028B7AA780055BDCC /* WorldChangedListener.swift */; };
+		0ACA71E328B7D7780055BDCC /* HotelConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA71E228B7D7780055BDCC /* HotelConverter.swift */; };
+		0ACA71E628B7D7C80055BDCC /* RoomUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA71E528B7D7C80055BDCC /* RoomUpdate.swift */; };
+		0ACA71E828B7D83D0055BDCC /* RoomBusinessType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA71E728B7D83D0055BDCC /* RoomBusinessType.swift */; };
+		0ACA71EB28B7D94D0055BDCC /* HotelUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA71EA28B7D94D0055BDCC /* HotelUpdate.swift */; };
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
@@ -29,6 +53,30 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0ACA71B328B7A89B0055BDCC /* RoomCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomCount.swift; sourceTree = "<group>"; };
+		0ACA71B428B7A89B0055BDCC /* SetupDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupDto.swift; sourceTree = "<group>"; };
+		0ACA71B528B7A89B0055BDCC /* enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = enums.swift; sourceTree = "<group>"; };
+		0ACA71B628B7A89B0055BDCC /* Processor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Processor.swift; sourceTree = "<group>"; };
+		0ACA71BA28B7A89B0055BDCC /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		0ACA71BB28B7A89B0055BDCC /* Hotel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
+		0ACA71BC28B7A89B0055BDCC /* RoomModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomModel.swift; sourceTree = "<group>"; };
+		0ACA71BE28B7A89B0055BDCC /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		0ACA71BF28B7A89B0055BDCC /* InitialData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialData.swift; sourceTree = "<group>"; };
+		0ACA71C128B7A89B0055BDCC /* WorldSpeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldSpeed.swift; sourceTree = "<group>"; };
+		0ACA71C228B7A89B0055BDCC /* World.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = World.swift; sourceTree = "<group>"; };
+		0ACA71C328B7A89B0055BDCC /* WorldClock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldClock.swift; sourceTree = "<group>"; };
+		0ACA71C428B7A89B0055BDCC /* Season.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Season.swift; sourceTree = "<group>"; };
+		0ACA71C628B7A89B0055BDCC /* HotelService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelService.swift; sourceTree = "<group>"; };
+		0ACA71C728B7A89B0055BDCC /* AccountantService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountantService.swift; sourceTree = "<group>"; };
+		0ACA71C828B7A89B0055BDCC /* RepairingSquad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepairingSquad.swift; sourceTree = "<group>"; };
+		0ACA71C928B7A89B0055BDCC /* HotelReception.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelReception.swift; sourceTree = "<group>"; };
+		0ACA71CB28B7A89B0055BDCC /* BreakeEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreakeEvent.swift; sourceTree = "<group>"; };
+		0ACA71CC28B7A89B0055BDCC /* PersonRandomizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonRandomizer.swift; sourceTree = "<group>"; };
+		0ACA71E028B7AA780055BDCC /* WorldChangedListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldChangedListener.swift; sourceTree = "<group>"; };
+		0ACA71E228B7D7780055BDCC /* HotelConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelConverter.swift; sourceTree = "<group>"; };
+		0ACA71E528B7D7C80055BDCC /* RoomUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomUpdate.swift; sourceTree = "<group>"; };
+		0ACA71E728B7D83D0055BDCC /* RoomBusinessType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomBusinessType.swift; sourceTree = "<group>"; };
+		0ACA71EA28B7D94D0055BDCC /* HotelUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelUpdate.swift; sourceTree = "<group>"; };
 		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
 		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
@@ -55,6 +103,109 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0ACA71B128B7A89B0055BDCC /* Processor */ = {
+			isa = PBXGroup;
+			children = (
+				0ACA71B228B7A89B0055BDCC /* dto */,
+				0ACA71B628B7A89B0055BDCC /* Processor.swift */,
+				0ACA71B728B7A89B0055BDCC /* converters */,
+				0ACA71B828B7A89B0055BDCC /* model */,
+				0ACA71C528B7A89B0055BDCC /* staff */,
+				0ACA71CA28B7A89B0055BDCC /* event */,
+			);
+			path = Processor;
+			sourceTree = "<group>";
+		};
+		0ACA71B228B7A89B0055BDCC /* dto */ = {
+			isa = PBXGroup;
+			children = (
+				0ACA71E428B7D7B80055BDCC /* update */,
+				0ACA71B328B7A89B0055BDCC /* RoomCount.swift */,
+				0ACA71B428B7A89B0055BDCC /* SetupDto.swift */,
+				0ACA71B528B7A89B0055BDCC /* enums.swift */,
+			);
+			path = dto;
+			sourceTree = "<group>";
+		};
+		0ACA71B728B7A89B0055BDCC /* converters */ = {
+			isa = PBXGroup;
+			children = (
+				0ACA71E228B7D7780055BDCC /* HotelConverter.swift */,
+			);
+			path = converters;
+			sourceTree = "<group>";
+		};
+		0ACA71B828B7A89B0055BDCC /* model */ = {
+			isa = PBXGroup;
+			children = (
+				0ACA71B928B7A89B0055BDCC /* hotel */,
+				0ACA71BD28B7A89B0055BDCC /* Person */,
+				0ACA71BF28B7A89B0055BDCC /* InitialData.swift */,
+				0ACA71C028B7A89B0055BDCC /* world */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		0ACA71B928B7A89B0055BDCC /* hotel */ = {
+			isa = PBXGroup;
+			children = (
+				0ACA71BA28B7A89B0055BDCC /* Service.swift */,
+				0ACA71BB28B7A89B0055BDCC /* Hotel.swift */,
+				0ACA71BC28B7A89B0055BDCC /* RoomModel.swift */,
+			);
+			path = hotel;
+			sourceTree = "<group>";
+		};
+		0ACA71BD28B7A89B0055BDCC /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				0ACA71BE28B7A89B0055BDCC /* Person.swift */,
+			);
+			path = Person;
+			sourceTree = "<group>";
+		};
+		0ACA71C028B7A89B0055BDCC /* world */ = {
+			isa = PBXGroup;
+			children = (
+				0ACA71C128B7A89B0055BDCC /* WorldSpeed.swift */,
+				0ACA71C228B7A89B0055BDCC /* World.swift */,
+				0ACA71C328B7A89B0055BDCC /* WorldClock.swift */,
+				0ACA71C428B7A89B0055BDCC /* Season.swift */,
+				0ACA71E028B7AA780055BDCC /* WorldChangedListener.swift */,
+			);
+			path = world;
+			sourceTree = "<group>";
+		};
+		0ACA71C528B7A89B0055BDCC /* staff */ = {
+			isa = PBXGroup;
+			children = (
+				0ACA71C628B7A89B0055BDCC /* HotelService.swift */,
+				0ACA71C728B7A89B0055BDCC /* AccountantService.swift */,
+				0ACA71C828B7A89B0055BDCC /* RepairingSquad.swift */,
+				0ACA71C928B7A89B0055BDCC /* HotelReception.swift */,
+			);
+			path = staff;
+			sourceTree = "<group>";
+		};
+		0ACA71CA28B7A89B0055BDCC /* event */ = {
+			isa = PBXGroup;
+			children = (
+				0ACA71CB28B7A89B0055BDCC /* BreakeEvent.swift */,
+				0ACA71CC28B7A89B0055BDCC /* PersonRandomizer.swift */,
+			);
+			path = event;
+			sourceTree = "<group>";
+		};
+		0ACA71E428B7D7B80055BDCC /* update */ = {
+			isa = PBXGroup;
+			children = (
+				0ACA71E528B7D7C80055BDCC /* RoomUpdate.swift */,
+				0ACA71E728B7D83D0055BDCC /* RoomBusinessType.swift */,
+				0ACA71EA28B7D94D0055BDCC /* HotelUpdate.swift */,
+			);
+			path = update;
+			sourceTree = "<group>";
+		};
 		9740EEB11CF90186004384FC /* Flutter */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +237,7 @@
 		97C146F01CF9000F007C117D /* Runner */ = {
 			isa = PBXGroup;
 			children = (
+				0ACA71B128B7A89B0055BDCC /* Processor */,
 				97C146FA1CF9000F007C117D /* Main.storyboard */,
 				97C146FD1CF9000F007C117D /* Assets.xcassets */,
 				97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */,
@@ -204,8 +356,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ACA71D428B7A89B0055BDCC /* Person.swift in Sources */,
+				0ACA71DF28B7A89B0055BDCC /* PersonRandomizer.swift in Sources */,
+				0ACA71D728B7A89B0055BDCC /* World.swift in Sources */,
+				0ACA71D028B7A89B0055BDCC /* Processor.swift in Sources */,
+				0ACA71D828B7A89B0055BDCC /* WorldClock.swift in Sources */,
+				0ACA71EB28B7D94D0055BDCC /* HotelUpdate.swift in Sources */,
+				0ACA71D128B7A89B0055BDCC /* Service.swift in Sources */,
+				0ACA71D328B7A89B0055BDCC /* RoomModel.swift in Sources */,
+				0ACA71D228B7A89B0055BDCC /* Hotel.swift in Sources */,
+				0ACA71DB28B7A89B0055BDCC /* AccountantService.swift in Sources */,
+				0ACA71D928B7A89B0055BDCC /* Season.swift in Sources */,
+				0ACA71E328B7D7780055BDCC /* HotelConverter.swift in Sources */,
+				0ACA71E628B7D7C80055BDCC /* RoomUpdate.swift in Sources */,
+				0ACA71D528B7A89B0055BDCC /* InitialData.swift in Sources */,
 				74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */,
+				0ACA71DA28B7A89B0055BDCC /* HotelService.swift in Sources */,
+				0ACA71CF28B7A89B0055BDCC /* enums.swift in Sources */,
+				0ACA71D628B7A89B0055BDCC /* WorldSpeed.swift in Sources */,
+				0ACA71DC28B7A89B0055BDCC /* RepairingSquad.swift in Sources */,
+				0ACA71CE28B7A89B0055BDCC /* SetupDto.swift in Sources */,
+				0ACA71DE28B7A89B0055BDCC /* BreakeEvent.swift in Sources */,
+				0ACA71CD28B7A89B0055BDCC /* RoomCount.swift in Sources */,
 				1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */,
+				0ACA71DD28B7A89B0055BDCC /* HotelReception.swift in Sources */,
+				0ACA71E128B7AA780055BDCC /* WorldChangedListener.swift in Sources */,
+				0ACA71E828B7D83D0055BDCC /* RoomBusinessType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
